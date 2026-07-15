@@ -1,0 +1,819 @@
+{
+  "id": "robotica",
+  "materia": "Robótica",
+  "titulo": "Curso de Robótica",
+  "subtitulo": "Do código base à Inteligência Artificial",
+  "modulos": [
+    {
+      "id": "logica-e-base",
+      "titulo": "Módulo 0: Lógica e Base",
+      "topicos": [
+        {
+          "id": "fundamentos-cpp",
+          "titulo": "Fundamentos de C++",
+          "subtitulo": "Variáveis, Controle, Funções e Escopo",
+          "categoria": "Base de Informática",
+          "cor": "#448AFF",
+          "icone": "code",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Boas Vindas",
+              "subtitulo": "Introdução ao curso",
+              "descricao": "Visão geral do C++, configuração do ambiente (IDE/Compilador) e o primeiro 'Hello World'.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/fundamentos-cpp/aula-01.pdf",
+              "exercicios": "materiais/fundamentos-cpp/exercicios-01.pdf",
+              "cor": "#9C27B0",
+              "icone": "star"
+            },
+            {
+              "numero": "02",
+              "titulo": "Variáveis e Tipos",
+              "subtitulo": "Armazenando dados",
+              "descricao": "Entenda os tipos primitivos (int, float, double, char, bool) e como declarar variáveis corretamente.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/fundamentos-cpp/aula-02.pdf",
+              "exercicios": "materiais/fundamentos-cpp/exercicios-02.pdf",
+              "cor": "#2196F3",
+              "icone": "storage"
+            },
+            {
+              "numero": "03",
+              "titulo": "Entrada e Saída",
+              "subtitulo": "Interagindo com o usuário",
+              "descricao": "Aprenda a usar o std::cin e std::cout para ler dados do teclado e exibir informações na tela.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/fundamentos-cpp/aula-03.pdf",
+              "exercicios": "materiais/fundamentos-cpp/exercicios-03.pdf",
+              "cor": "#4CAF50",
+              "icone": "input"
+            },
+            {
+              "numero": "04",
+              "titulo": "Estruturas Condicionais",
+              "subtitulo": "Tomada de decisão",
+              "descricao": "O uso de If, Else If, Else e Switch Case para controlar o fluxo do programa.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/fundamentos-cpp/aula-04.pdf",
+              "exercicios": "materiais/fundamentos-cpp/exercicios-04.pdf",
+              "cor": "#FF9800",
+              "icone": "call_split"
+            },
+            {
+              "numero": "05",
+              "titulo": "Estruturas de Repetição",
+              "subtitulo": "Loops e Iterações",
+              "descricao": "Como repetir blocos de código usando For, While e Do-While.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/fundamentos-cpp/aula-05.pdf",
+              "exercicios": "materiais/fundamentos-cpp/exercicios-05.pdf",
+              "cor": "#F44336",
+              "icone": "loop"
+            },
+            {
+              "numero": "06",
+              "titulo": "Vetores e Matrizes",
+              "subtitulo": "Coleções de dados",
+              "descricao": "Trabalhando com arrays unidimensionais e multidimensionais para armazenar múltiplos valores.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/fundamentos-cpp/aula-06.pdf",
+              "exercicios": "materiais/fundamentos-cpp/exercicios-06.pdf",
+              "cor": "#009688",
+              "icone": "grid_on"
+            },
+            {
+              "numero": "07",
+              "titulo": "Funções e Escopo",
+              "subtitulo": "Modularização",
+              "descricao": "Como criar suas próprias funções, passar parâmetros (valor e referência) e entender o escopo de variáveis.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/fundamentos-cpp/aula-07.pdf",
+              "exercicios": "materiais/fundamentos-cpp/exercicios-07.pdf",
+              "cor": "#3F51B5",
+              "icone": "functions"
+            },
+            {
+              "numero": "08",
+              "titulo": "Introdução a Ponteiros",
+              "subtitulo": "Memória e Endereços",
+              "descricao": "O conceito fundamental de endereços de memória e como o C++ lida diretamente com o hardware.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/fundamentos-cpp/aula-08.pdf",
+              "exercicios": "materiais/fundamentos-cpp/exercicios-08.pdf",
+              "cor": "#607D8B",
+              "icone": "memory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arduino-basico",
+      "titulo": "Tópico 1: Arduino Básico",
+      "topicos": [
+        {
+          "id": "introducao-ao-arduino",
+          "titulo": "Introdução ao Arduino",
+          "subtitulo": "IDE, Setup, Loop e Portas I/O",
+          "categoria": "Eletrônica",
+          "cor": "#00A399",
+          "icone": "settings_input_component_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Configurando o Ambiente",
+              "subtitulo": "Instalando a Arduino IDE",
+              "descricao": "Passo a passo para instalar a IDE, configurar drivers e selecionar a placa correta (Uno, Nano, Mega).",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-ao-arduino/aula-01.pdf",
+              "exercicios": "materiais/introducao-ao-arduino/exercicios-01.pdf",
+              "cor": "#00979C",
+              "icone": "settings_input_component"
+            },
+            {
+              "numero": "02",
+              "titulo": "Estrutura do Sketch",
+              "subtitulo": "Setup e Loop",
+              "descricao": "Entenda as duas funções obrigatórias: void setup() para configurações e void loop() para execução contínua.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-ao-arduino/aula-02.pdf",
+              "exercicios": "materiais/introducao-ao-arduino/exercicios-02.pdf",
+              "cor": "#56F4C5",
+              "icone": "code"
+            },
+            {
+              "numero": "03",
+              "titulo": "O Primeiro LED (Blink)",
+              "subtitulo": "Saída Digital",
+              "descricao": "Aprenda a usar pinMode(), digitalWrite() e delay() para fazer um LED piscar.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-ao-arduino/aula-03.pdf",
+              "exercicios": "materiais/introducao-ao-arduino/exercicios-03.pdf",
+              "cor": "#FFD700",
+              "icone": "lightbulb_outline"
+            },
+            {
+              "numero": "04",
+              "titulo": "Entradas Digitais",
+              "subtitulo": "Botões e Pull-up",
+              "descricao": "Como ler estados do mundo real usando digitalRead() e o conceito de resistores de pull-up/pull-down.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-ao-arduino/aula-04.pdf",
+              "exercicios": "materiais/introducao-ao-arduino/exercicios-04.pdf",
+              "cor": "#FF9800",
+              "icone": "touch_app"
+            },
+            {
+              "numero": "05",
+              "titulo": "Sinais Analógicos (PWM)",
+              "subtitulo": "Variando a Intensidade",
+              "descricao": "Diferença entre digital e analógico. Usando analogWrite() para controlar o brilho de um LED ou velocidade de um motor.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-ao-arduino/aula-05.pdf",
+              "exercicios": "materiais/introducao-ao-arduino/exercicios-05.pdf",
+              "cor": "#2196F3",
+              "icone": "waves"
+            },
+            {
+              "numero": "06",
+              "titulo": "Leitura de Sensores",
+              "subtitulo": "Entrada Analógica",
+              "descricao": "Usando analogRead() para ler valores de potenciômetros, LDRs (luz) ou sensores de temperatura.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-ao-arduino/aula-06.pdf",
+              "exercicios": "materiais/introducao-ao-arduino/exercicios-06.pdf",
+              "cor": "#4CAF50",
+              "icone": "settings_input_antenna"
+            },
+            {
+              "numero": "07",
+              "titulo": "Comunicação Serial",
+              "subtitulo": "Monitorando Dados",
+              "descricao": "Como enviar informações do Arduino para o computador para depuração usando o Serial Monitor.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-ao-arduino/aula-07.pdf",
+              "exercicios": "materiais/introducao-ao-arduino/exercicios-07.pdf",
+              "cor": "#9C27B0",
+              "icone": "terminal"
+            },
+            {
+              "numero": "08",
+              "titulo": "Projeto Final de Módulo",
+              "subtitulo": "Sistema Automático",
+              "descricao": "Criando um sistema que lê um sensor e toma uma decisão (ex: acender luz quando escurecer).",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-ao-arduino/aula-08.pdf",
+              "exercicios": "materiais/introducao-ao-arduino/exercicios-08.pdf",
+              "cor": "#FF5252",
+              "icone": "rocket_launch"
+            }
+          ]
+        },
+        {
+          "id": "sensores-basicos",
+          "titulo": "Sensores Básicos",
+          "subtitulo": "Ultrassônico, LiDAR, QTR8, TCRT5000...",
+          "categoria": "Leitura de Dados",
+          "cor": "#FFB74D",
+          "icone": "sensors_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Sensor de Distância Ultrassônico",
+              "subtitulo": "HC-SR04 e a Velocidade do Som",
+              "descricao": "O ponto de partida. Aprenda a medir distâncias enviando pulsos sonoros e calculando o tempo de resposta.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/sensores-basicos/aula-01.pdf",
+              "exercicios": "materiais/sensores-basicos/exercicios-01.pdf",
+              "cor": "#2196F3",
+              "icone": "settings_remote"
+            },
+            {
+              "numero": "02",
+              "titulo": "Servo Motor",
+              "subtitulo": "Controle de Ângulo e Posição",
+              "descricao": "Aprenda a usar a biblioteca Servo.h para controlar movimentos precisos de 0 a 180 graus.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/sensores-basicos/aula-02.pdf",
+              "exercicios": "materiais/sensores-basicos/exercicios-02.pdf",
+              "cor": "#FF9800",
+              "icone": "precision_manufacturing"
+            },
+            {
+              "numero": "03",
+              "titulo": "Sensor de Refletância TCRT5000",
+              "subtitulo": "Detecção de Linhas e Objetos Próximos",
+              "descricao": "Entenda o funcionamento do infravermelho para detectar superfícies claras e escuras (ideal para robôs sumô ou contadores).",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/sensores-basicos/aula-03.pdf",
+              "exercicios": "materiais/sensores-basicos/exercicios-03.pdf",
+              "cor": "#F44336",
+              "icone": "swap_horiz"
+            },
+            {
+              "numero": "04",
+              "titulo": "Clima com DHT11",
+              "subtitulo": "Temperatura e Umidade Digital",
+              "descricao": "Como ler um protocolo serial de fio único usando bibliotecas para monitorar o ambiente.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/sensores-basicos/aula-04.pdf",
+              "exercicios": "materiais/sensores-basicos/exercicios-04.pdf",
+              "cor": "#009688",
+              "icone": "thermostat"
+            },
+            {
+              "numero": "05",
+              "titulo": "Ponte-H L298N",
+              "subtitulo": "Controle de Motores DC",
+              "descricao": "Aprenda a controlar a direção e a velocidade (PWM) de motores potentes com alimentação externa.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/sensores-basicos/aula-05.pdf",
+              "exercicios": "materiais/sensores-basicos/exercicios-05.pdf",
+              "cor": "#673AB7",
+              "icone": "settings_input_component"
+            },
+            {
+              "numero": "06",
+              "titulo": "Sensor de Cor TCS34725",
+              "subtitulo": "Processamento de Luz RGB",
+              "descricao": "Uso do protocolo I2C para identificar cores exatas com um sensor de alta precisão.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/sensores-basicos/aula-06.pdf",
+              "exercicios": "materiais/sensores-basicos/exercicios-06.pdf",
+              "cor": "#E91E63",
+              "icone": "color_lens"
+            },
+            {
+              "numero": "07",
+              "titulo": "Array de Sensores QTR8",
+              "subtitulo": "Robótica de Seguimento de Linha",
+              "descricao": "Como ler múltiplos sensores infravermelhos simultaneamente e tratar os dados para alta velocidade.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/sensores-basicos/aula-07.pdf",
+              "exercicios": "materiais/sensores-basicos/exercicios-07.pdf",
+              "cor": "#3F51B5",
+              "icone": "linear_scale"
+            },
+            {
+              "numero": "08",
+              "titulo": "LiDAR VL53L0X",
+              "subtitulo": "Laser Time-of-Flight (ToF)",
+              "descricao": "O nível mais avançado: medição de distância via laser com precisão milimétrica via barramento I2C.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/sensores-basicos/aula-08.pdf",
+              "exercicios": "materiais/sensores-basicos/exercicios-08.pdf",
+              "cor": "#000000",
+              "icone": "radar"
+            }
+          ]
+        },
+        {
+          "id": "controlador-pid",
+          "titulo": "Controlador PID",
+          "subtitulo": "Cálculo, Controle...",
+          "categoria": "Controle",
+          "cor": "#CE93D8",
+          "icone": "assessment_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Introdução ao Controle",
+              "subtitulo": "O que é PID?",
+              "descricao": "Entenda o conceito de malha fechada e como o PID ajuda a manter sistemas estáveis e precisos.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/controlador-pid/aula-01.pdf",
+              "exercicios": "materiais/controlador-pid/exercicios-01.pdf",
+              "cor": "#673AB7",
+              "icone": "psychology_rounded"
+            },
+            {
+              "numero": "02",
+              "titulo": "Ação Proporcional (P)",
+              "subtitulo": "O Erro e a Correção",
+              "descricao": "Aprenda como a constante Kp atua sobre o erro atual para gerar uma resposta proporcional.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/controlador-pid/aula-02.pdf",
+              "exercicios": "materiais/controlador-pid/exercicios-02.pdf",
+              "cor": "#2196F3",
+              "icone": "add_chart_rounded"
+            },
+            {
+              "numero": "03",
+              "titulo": "Ação Integral (I)",
+              "subtitulo": "Eliminando o Erro Estacionário",
+              "descricao": "Como a constante Ki acumula o erro ao longo do tempo para garantir que o alvo seja atingido.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/controlador-pid/aula-03.pdf",
+              "exercicios": "materiais/controlador-pid/exercicios-03.pdf",
+              "cor": "#4CAF50",
+              "icone": "functions_rounded"
+            },
+            {
+              "numero": "04",
+              "titulo": "Ação Derivativa (D)",
+              "subtitulo": "Amortecendo o Sistema",
+              "descricao": "Entenda como a constante Kd prevê o erro futuro para evitar oscilações e suavizar o movimento.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/controlador-pid/aula-04.pdf",
+              "exercicios": "materiais/controlador-pid/exercicios-04.pdf",
+              "cor": "#FF9800",
+              "icone": "trending_flat_rounded"
+            },
+            {
+              "numero": "05",
+              "titulo": "Sintonia de Ganhos",
+              "subtitulo": "Método de Ziegler-Nichols",
+              "descricao": "Técnicas práticas para ajustar os valores de Kp, Ki e Kd no seu projeto real.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/controlador-pid/aula-05.pdf",
+              "exercicios": "materiais/controlador-pid/exercicios-05.pdf",
+              "cor": "#FF5252",
+              "icone": "tune_rounded"
+            },
+            {
+              "numero": "06",
+              "titulo": "Implementação no Código",
+              "subtitulo": "Calculando o PID no Arduino",
+              "descricao": "Transformando as fórmulas matemáticas em código C++ funcional dentro do void loop().",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/controlador-pid/aula-06.pdf",
+              "exercicios": "materiais/controlador-pid/exercicios-06.pdf",
+              "cor": "#56F4C5",
+              "icone": "terminal_rounded"
+            }
+          ]
+        },
+        {
+          "id": "seguidor-de-linha-basico",
+          "titulo": "Seguidor de Linha Básico",
+          "subtitulo": "Construindo o seu primeiro Robô",
+          "categoria": "Projeto",
+          "cor": "#FFD54F",
+          "icone": "smart_toy_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Projeto: Seguidor de Linha",
+              "subtitulo": "PID aplicado a Robótica",
+              "descricao": "Aplicando o controle PID em um robô com sensores QTR para curvas perfeitas em alta velocidade.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/seguidor-de-linha-basico/aula-01.pdf",
+              "exercicios": "materiais/seguidor-de-linha-basico/exercicios-01.pdf",
+              "cor": "#3F51B5",
+              "icone": "smart_toy_rounded"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "robotica-com-esp32",
+      "titulo": "Tópico 2: Robótica com ESP32",
+      "topicos": [
+        {
+          "id": "introducao-ao-esp32",
+          "titulo": "Introdução ao ESP32",
+          "subtitulo": "Introdução, Configurando Ambiente de Trabalho e Diferenciais",
+          "categoria": "Introdução",
+          "cor": "#FF5252",
+          "icone": "memory",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "O Poder do ESP32",
+              "subtitulo": "Hardware e Pinagem",
+              "descricao": "Conheça o chip, os dois núcleos, memória flash e a pinagem (GPIOs, ADC, DAC, Touch).",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-ao-esp32/aula-01.pdf",
+              "exercicios": "materiais/introducao-ao-esp32/exercicios-01.pdf",
+              "cor": "#FF5252",
+              "icone": "memory"
+            },
+            {
+              "numero": "02",
+              "titulo": "Configurando Ambiente de Trabalho: VsCode",
+              "subtitulo": "Configurando a IDE",
+              "descricao": "Como adicionar a URL da Espressif na IDE e instalar o driver da placa.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-ao-esp32/aula-02.pdf",
+              "exercicios": "materiais/introducao-ao-esp32/exercicios-02.pdf",
+              "cor": "#2196F3",
+              "icone": "install_desktop"
+            }
+          ]
+        },
+        {
+          "id": "conectividade-com-esp32",
+          "titulo": "Conectividade com ESP32",
+          "subtitulo": "Bluetooth, WiFi e OTA",
+          "categoria": "Conectividade",
+          "cor": "#40C4FF",
+          "icone": "wifi_tethering_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Wi-Fi: Station Mode",
+              "subtitulo": "Conectando na sua rede",
+              "descricao": "Como conectar o ESP32 ao roteador e verificar o endereço IP local.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/conectividade-com-esp32/aula-01.pdf",
+              "exercicios": "materiais/conectividade-com-esp32/exercicios-01.pdf",
+              "cor": "#3F51B5",
+              "icone": "wifi"
+            },
+            {
+              "numero": "02",
+              "titulo": "Servidor Web Simples",
+              "subtitulo": "Controle via Browser",
+              "descricao": "Criando uma página HTML hospedada no ESP32 para ligar/desligar um LED pelo celular.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/conectividade-com-esp32/aula-02.pdf",
+              "exercicios": "materiais/conectividade-com-esp32/exercicios-02.pdf",
+              "cor": "#FF9800",
+              "icone": "language"
+            },
+            {
+              "numero": "03",
+              "titulo": "Bluetooth Low Energy (BLE)",
+              "subtitulo": "Comunicação Sem Fio eficiente",
+              "descricao": "Configurando o ESP32 como servidor BLE para interagir com aplicativos de smartphone.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/conectividade-com-esp32/aula-03.pdf",
+              "exercicios": "materiais/conectividade-com-esp32/exercicios-03.pdf",
+              "cor": "#448AFF",
+              "icone": "bluetooth"
+            }
+          ]
+        },
+        {
+          "id": "sistemas-de-tarefas-esp32",
+          "titulo": "Sistemas de Tarefas ESP32",
+          "subtitulo": "Aprendendo FreeRTOS, Mutex...",
+          "categoria": "Sistemas",
+          "cor": "#B2FF59",
+          "icone": "account_tree_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Introdução ao FreeRTOS",
+              "subtitulo": "O que é um RTOS?",
+              "descricao": "Entenda por que usar um sistema operacional de tempo real em vez de um loop gigante.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/sistemas-de-tarefas-esp32/aula-01.pdf",
+              "exercicios": "materiais/sistemas-de-tarefas-esp32/exercicios-01.pdf",
+              "cor": "#4CAF50",
+              "icone": "account_tree_rounded"
+            },
+            {
+              "numero": "02",
+              "titulo": "Criando xTasks",
+              "subtitulo": "Tarefas Simultâneas",
+              "descricao": "Como rodar o código de um sensor e o código de um motor de forma independente.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/sistemas-de-tarefas-esp32/aula-02.pdf",
+              "exercicios": "materiais/sistemas-de-tarefas-esp32/exercicios-02.pdf",
+              "cor": "#00BCD4",
+              "icone": "playlist_add_check_circle"
+            },
+            {
+              "numero": "03",
+              "titulo": "Dual Core: Task to Core",
+              "subtitulo": "Usando o Core 0 e Core 1",
+              "descricao": "Como fixar tarefas específicas em núcleos diferentes para máxima performance.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/sistemas-de-tarefas-esp32/aula-03.pdf",
+              "exercicios": "materiais/sistemas-de-tarefas-esp32/exercicios-03.pdf",
+              "cor": "#E91E63",
+              "icone": "speed"
+            },
+            {
+              "numero": "04",
+              "titulo": "Semáforos e Filas",
+              "subtitulo": "Sincronização de Dados",
+              "descricao": "Evitando conflitos quando duas tarefas tentam acessar a mesma variável ao mesmo tempo.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/sistemas-de-tarefas-esp32/aula-04.pdf",
+              "exercicios": "materiais/sistemas-de-tarefas-esp32/exercicios-04.pdf",
+              "cor": "#FFC107",
+              "icone": "multiple_stop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visao-computacional",
+      "titulo": "Tópico 3: Visão Computacional",
+      "topicos": [
+        {
+          "id": "introducao-opencv",
+          "titulo": "Introdução OpenCV",
+          "subtitulo": "Ambiente de Trabalho e Introdução",
+          "categoria": "Introdução",
+          "cor": "#18FFFF",
+          "icone": "broadcast_on_home_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "O que é Visão Computacional?",
+              "subtitulo": "Conceitos e Instalação",
+              "descricao": "Entenda como o computador enxerga imagens (Matrizes) e configure o ambiente OpenCV.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-opencv/aula-01.pdf",
+              "exercicios": "materiais/introducao-opencv/exercicios-01.pdf",
+              "cor": "#FF5252",
+              "icone": "visibility"
+            },
+            {
+              "numero": "02",
+              "titulo": "Espaços de Cores",
+              "subtitulo": "RGB, BGR e HSV",
+              "descricao": "Aprenda a diferença entre os sistemas de cores e por que o HSV é melhor para detecção.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-opencv/aula-02.pdf",
+              "exercicios": "materiais/introducao-opencv/exercicios-02.pdf",
+              "cor": "#2196F3",
+              "icone": "palette"
+            },
+            {
+              "numero": "03",
+              "titulo": "Filtros e Blur",
+              "subtitulo": "Redução de Ruído",
+              "descricao": "Como aplicar filtros (Gaussian, Median) para limpar a imagem antes do processamento.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-opencv/aula-03.pdf",
+              "exercicios": "materiais/introducao-opencv/exercicios-03.pdf",
+              "cor": "#009688",
+              "icone": "blur_on"
+            }
+          ]
+        },
+        {
+          "id": "identificacao-basica-com-opencv",
+          "titulo": "Identificação Básica com OpenCV",
+          "subtitulo": "Filtros, Contornos e Rastreamento de Cores",
+          "categoria": "Visão Computacional",
+          "cor": "#18FFFF",
+          "icone": "visibility",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Limiarização (Thresholding)",
+              "subtitulo": "Preto e Branco binário",
+              "descricao": "Transformando imagens em máscaras binárias para isolar objetos de interesse.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/identificacao-basica-com-opencv/aula-01.pdf",
+              "exercicios": "materiais/identificacao-basica-com-opencv/exercicios-01.pdf",
+              "cor": "#DD000000",
+              "icone": "exposure_rounded"
+            },
+            {
+              "numero": "02",
+              "titulo": "Detecção de Bordas",
+              "subtitulo": "Algoritmo de Canny",
+              "descricao": "Como encontrar os contornos de objetos através da variação de intensidade dos pixels.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/identificacao-basica-com-opencv/aula-02.pdf",
+              "exercicios": "materiais/identificacao-basica-com-opencv/exercicios-02.pdf",
+              "cor": "#3F51B5",
+              "icone": "architecture"
+            },
+            {
+              "numero": "03",
+              "titulo": "Contornos e Geometria",
+              "subtitulo": "Ache o centro (Centroide)",
+              "descricao": "Desenhando contornos e calculando a área e o centro de massa de um objeto identificado.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/identificacao-basica-com-opencv/aula-03.pdf",
+              "exercicios": "materiais/identificacao-basica-com-opencv/exercicios-03.pdf",
+              "cor": "#FF9800",
+              "icone": "ads_click"
+            }
+          ]
+        },
+        {
+          "id": "seguidor-de-linha-com-opencv",
+          "titulo": "Seguidor de Linha com OpenCV",
+          "subtitulo": "Construção de Projeto",
+          "categoria": "Projeto",
+          "cor": "#EA80FC",
+          "icone": "psychology_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Região de Interesse (ROI)",
+              "subtitulo": "Otimizando o processamento",
+              "descricao": "Aprenda a cortar a imagem para processar apenas a parte da estrada ou linha.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/seguidor-de-linha-com-opencv/aula-01.pdf",
+              "exercicios": "materiais/seguidor-de-linha-com-opencv/exercicios-01.pdf",
+              "cor": "#673AB7",
+              "icone": "crop_rounded"
+            },
+            {
+              "numero": "02",
+              "titulo": "Cálculo do Erro",
+              "subtitulo": "Distância do Centro",
+              "descricao": "Como calcular o desvio do robô em relação ao centro da linha detectada.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/seguidor-de-linha-com-opencv/aula-02.pdf",
+              "exercicios": "materiais/seguidor-de-linha-com-opencv/exercicios-02.pdf",
+              "cor": "#E91E63",
+              "icone": "straighten"
+            },
+            {
+              "numero": "03",
+              "titulo": "Integração PID + Visão",
+              "subtitulo": "Suavizando o movimento",
+              "descricao": "Usando o erro da câmera como entrada para o controle PID dos motores.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/seguidor-de-linha-com-opencv/aula-03.pdf",
+              "exercicios": "materiais/seguidor-de-linha-com-opencv/exercicios-03.pdf",
+              "cor": "#4CAF50",
+              "icone": "settings_input_antenna"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inteligencia-artificial",
+      "titulo": "Tópico 4: Inteligência Artificial",
+      "topicos": [
+        {
+          "id": "machine-learning-aplicado",
+          "titulo": "Machine Learning Aplicado",
+          "subtitulo": "Regressões e Redes Neurais Feedforward",
+          "categoria": "IA & Dados",
+          "cor": "#EA80FC",
+          "icone": "psychology_rounded",
+          "destaque": true,
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "O que é Machine Learning?",
+              "subtitulo": "IA vs Programação Tradicional",
+              "descricao": "Entenda a diferença entre algoritmos baseados em regras e algoritmos que aprendem com dados.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/machine-learning-aplicado/aula-01.pdf",
+              "exercicios": "materiais/machine-learning-aplicado/exercicios-01.pdf",
+              "cor": "#673AB7",
+              "icone": "auto_awesome"
+            },
+            {
+              "numero": "02",
+              "titulo": "Tipos de Aprendizado",
+              "subtitulo": "Supervisionado e Não Supervisionado",
+              "descricao": "Conheça as diferenças entre Classificação, Regressão e Agrupamento (Clustering).",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/machine-learning-aplicado/aula-02.pdf",
+              "exercicios": "materiais/machine-learning-aplicado/exercicios-02.pdf",
+              "cor": "#3F51B5",
+              "icone": "category_rounded"
+            },
+            {
+              "numero": "03",
+              "titulo": "Redes Neurais Artificiais",
+              "subtitulo": "Inspiradas no Cérebro",
+              "descricao": "A estrutura de uma rede neural: neurônios, camadas de entrada, ocultas e de saída.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/machine-learning-aplicado/aula-03.pdf",
+              "exercicios": "materiais/machine-learning-aplicado/exercicios-03.pdf",
+              "cor": "#448AFF",
+              "icone": "hub_rounded"
+            },
+            {
+              "numero": "04",
+              "titulo": "Treinamento e Inferência",
+              "subtitulo": "Ensinando o Modelo",
+              "descricao": "Entenda o ciclo: coleta de dados, treinamento, validação e a execução do modelo (inferência).",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/machine-learning-aplicado/aula-04.pdf",
+              "exercicios": "materiais/machine-learning-aplicado/exercicios-04.pdf",
+              "cor": "#009688",
+              "icone": "model_training_rounded"
+            },
+            {
+              "numero": "05",
+              "titulo": "Visão Computacional e ML",
+              "subtitulo": "Reconhecimento de Padrões",
+              "descricao": "Como modelos de ML são usados para classificar objetos em imagens e vídeos em tempo real.",
+              "dificuldade": 5,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/machine-learning-aplicado/aula-05.pdf",
+              "exercicios": "materiais/machine-learning-aplicado/exercicios-05.pdf",
+              "cor": "#FF9800",
+              "icone": "remove_red_eye_rounded"
+            },
+            {
+              "numero": "06",
+              "titulo": "Introdução ao TinyML",
+              "subtitulo": "ML em Microcontroladores",
+              "descricao": "Como levar modelos de inteligência artificial para rodar diretamente em um ESP32 ou Arduino.",
+              "dificuldade": 5,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/machine-learning-aplicado/aula-06.pdf",
+              "exercicios": "materiais/machine-learning-aplicado/exercicios-06.pdf",
+              "cor": "#FF5252",
+              "icone": "memory_rounded"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

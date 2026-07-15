@@ -1,0 +1,382 @@
+{
+  "id": "informatica",
+  "materia": "Informática",
+  "titulo": "Curso de Informática",
+  "subtitulo": "De pequenos algoritmos até grandes sistemas",
+  "modulos": [
+    {
+      "id": "introducao-programacao-competitiva",
+      "titulo": "Módulo 0: Introdução a Programação Competitiva",
+      "topicos": [
+        {
+          "id": "introducao-a-programacao-competitiva",
+          "titulo": "Introdução a Programação Competitiva",
+          "subtitulo": "OBI, Como praticar, Objetivos",
+          "categoria": "Base de Informática",
+          "cor": "#448AFF",
+          "icone": "code",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Boas Vindas",
+              "subtitulo": "Introdução ao curso",
+              "descricao": "Apresentação do curso: o que é programação competitiva e como a trilha está organizada.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-programacao-competitiva/aula-01.pdf",
+              "exercicios": "materiais/introducao-a-programacao-competitiva/exercicios-01.pdf",
+              "cor": "#9C27B0",
+              "icone": "star"
+            },
+            {
+              "numero": "02",
+              "titulo": "O que é a OBI?",
+              "subtitulo": "Como funciona a OBI",
+              "descricao": "Estrutura da Olimpíada Brasileira de Informática: modalidades, fases e como se inscrever.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-programacao-competitiva/aula-02.pdf",
+              "exercicios": "materiais/introducao-a-programacao-competitiva/exercicios-02.pdf",
+              "cor": "#9C27B0",
+              "icone": "emoji_events"
+            },
+            {
+              "numero": "03",
+              "titulo": "Objetivos do Curso",
+              "subtitulo": "O que devemos esperar ao concluir o Curso",
+              "descricao": "Metas de aprendizado, rotina de prática recomendada e plataformas de treino (Neps, beecrowd, Codeforces).",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-programacao-competitiva/aula-03.pdf",
+              "exercicios": "materiais/introducao-a-programacao-competitiva/exercicios-03.pdf",
+              "cor": "#9C27B0",
+              "icone": "flag_rounded"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fundamentos-programacao-competitiva",
+      "titulo": "Tópico 1: Fundamentos da Programação Competitiva",
+      "topicos": [
+        {
+          "id": "ajustando-seu-ambiente-de-trabalho",
+          "titulo": "Ajustando seu Ambiente de Trabalho",
+          "subtitulo": "Configurando sua IDE",
+          "categoria": "Organização",
+          "cor": "#00A399",
+          "icone": "settings_input_component_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Qual Ambiente de Trabalho escolher?",
+              "subtitulo": "Qual devo escolher?",
+              "descricao": "Comparativo entre IDEs online e locais para decidir qual combina com a sua rotina de treino.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/ajustando-seu-ambiente-de-trabalho/aula-01.pdf",
+              "exercicios": "materiais/ajustando-seu-ambiente-de-trabalho/exercicios-01.pdf",
+              "cor": "#9C27B0",
+              "icone": "help_outline"
+            },
+            {
+              "numero": "02",
+              "titulo": "Como usar IDE Online (Usaco Guide)",
+              "subtitulo": "Como usar Usaco Guide IDE",
+              "descricao": "Programando direto do navegador com a IDE do Usaco Guide, sem instalar nada.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/ajustando-seu-ambiente-de-trabalho/aula-02.pdf",
+              "exercicios": "materiais/ajustando-seu-ambiente-de-trabalho/exercicios-02.pdf",
+              "cor": "#2196F3",
+              "icone": "language"
+            },
+            {
+              "numero": "03",
+              "titulo": "Como configurar VsCode IDE",
+              "subtitulo": "Como usar VsCode IDE",
+              "descricao": "Instalação do VsCode, extensão C/C++ e compilador g++ para compilar e depurar localmente.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/ajustando-seu-ambiente-de-trabalho/aula-03.pdf",
+              "exercicios": "materiais/ajustando-seu-ambiente-de-trabalho/exercicios-03.pdf",
+              "cor": "#2196F3",
+              "icone": "install_desktop"
+            },
+            {
+              "numero": "04",
+              "titulo": "Como configurar CodeBlocks IDE",
+              "subtitulo": "Como usar CodeBlocks IDE",
+              "descricao": "Instalação e configuração do CodeBlocks, a IDE usada em várias competições presenciais.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/ajustando-seu-ambiente-de-trabalho/aula-04.pdf",
+              "exercicios": "materiais/ajustando-seu-ambiente-de-trabalho/exercicios-04.pdf",
+              "cor": "#FF9800",
+              "icone": "build_rounded"
+            },
+            {
+              "numero": "05",
+              "titulo": "Como configurar Dev-C++ IDE",
+              "subtitulo": "Como usar Dev-C++ IDE",
+              "descricao": "Instalação e configuração do Dev-C++, uma alternativa leve para máquinas mais simples.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/ajustando-seu-ambiente-de-trabalho/aula-05.pdf",
+              "exercicios": "materiais/ajustando-seu-ambiente-de-trabalho/exercicios-05.pdf",
+              "cor": "#4CAF50",
+              "icone": "computer_rounded"
+            }
+          ]
+        },
+        {
+          "id": "nocoes-basicas-de-cpp",
+          "titulo": "Noções Básicas de C++",
+          "subtitulo": "Variáveis, Entrada e Saída, Matrizes e Vetores",
+          "categoria": "Funções Essenciais",
+          "cor": "#FFB74D",
+          "icone": "sensors_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Introdução a Cin e Cout",
+              "subtitulo": "Como imprimir informações e receber informações",
+              "descricao": "Lendo dados da entrada padrão com cin e imprimindo resultados com cout.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/nocoes-basicas-de-cpp/aula-01.pdf",
+              "exercicios": "materiais/nocoes-basicas-de-cpp/exercicios-01.pdf",
+              "cor": "#9C27B0",
+              "icone": "input"
+            },
+            {
+              "numero": "02",
+              "titulo": "O que são variáveis?",
+              "subtitulo": "Tipos de Variáveis",
+              "descricao": "Tipos primitivos (int, long long, double, char, bool, string) e quando usar cada um.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/nocoes-basicas-de-cpp/aula-02.pdf",
+              "exercicios": "materiais/nocoes-basicas-de-cpp/exercicios-02.pdf",
+              "cor": "#2196F3",
+              "icone": "storage"
+            },
+            {
+              "numero": "03",
+              "titulo": "Matrizes e Vetores",
+              "subtitulo": "Como usar Matrizes e Vetores",
+              "descricao": "Declaração, leitura e percorrimento de arrays de uma e duas dimensões.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/nocoes-basicas-de-cpp/aula-03.pdf",
+              "exercicios": "materiais/nocoes-basicas-de-cpp/exercicios-03.pdf",
+              "cor": "#009688",
+              "icone": "grid_on"
+            }
+          ]
+        },
+        {
+          "id": "estruturas-de-condicao-e-repeticao",
+          "titulo": "Estruturas de Condição e Repetição",
+          "subtitulo": "For, While, If e Else, Switch Case",
+          "categoria": "Estruturas Básicas",
+          "cor": "#CE93D8",
+          "icone": "assessment_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Como usar If e Else",
+              "subtitulo": "Problemas com If e Else",
+              "descricao": "Tomada de decisão com if/else e resolução de problemas clássicos de condição.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/estruturas-de-condicao-e-repeticao/aula-01.pdf",
+              "exercicios": "materiais/estruturas-de-condicao-e-repeticao/exercicios-01.pdf",
+              "cor": "#9C27B0",
+              "icone": "call_split"
+            },
+            {
+              "numero": "02",
+              "titulo": "Como usar Switch Case",
+              "subtitulo": "Problemas com Switch Case",
+              "descricao": "Organizando múltiplos casos com switch e comparando com cadeias de if/else.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/estruturas-de-condicao-e-repeticao/aula-02.pdf",
+              "exercicios": "materiais/estruturas-de-condicao-e-repeticao/exercicios-02.pdf",
+              "cor": "#2196F3",
+              "icone": "list_alt_rounded"
+            },
+            {
+              "numero": "03",
+              "titulo": "Como usar o loop While",
+              "subtitulo": "Problemas que usam loop While",
+              "descricao": "Repetição controlada por condição: while, do-while e critérios de parada.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/estruturas-de-condicao-e-repeticao/aula-03.pdf",
+              "exercicios": "materiais/estruturas-de-condicao-e-repeticao/exercicios-03.pdf",
+              "cor": "#009688",
+              "icone": "loop"
+            },
+            {
+              "numero": "04",
+              "titulo": "Como usar o loop For",
+              "subtitulo": "Problemas que usam loop For",
+              "descricao": "Percorrendo intervalos e vetores com for, loops aninhados e contadores.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/estruturas-de-condicao-e-repeticao/aula-04.pdf",
+              "exercicios": "materiais/estruturas-de-condicao-e-repeticao/exercicios-04.pdf",
+              "cor": "#FF9800",
+              "icone": "replay_rounded"
+            }
+          ]
+        },
+        {
+          "id": "nocoes-avancadas-de-cpp",
+          "titulo": "Noções Avançadas de C++",
+          "subtitulo": "STL, Ponteiros, Funções e Ordenações",
+          "categoria": "Avançado",
+          "cor": "#FFD54F",
+          "icone": "smart_toy_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Introdução a Ponteiros",
+              "subtitulo": "Utilidade dos Ponteiros",
+              "descricao": "Endereços de memória, referências e onde ponteiros aparecem na programação competitiva.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/nocoes-avancadas-de-cpp/aula-01.pdf",
+              "exercicios": "materiais/nocoes-avancadas-de-cpp/exercicios-01.pdf",
+              "cor": "#607D8B",
+              "icone": "memory"
+            },
+            {
+              "numero": "02",
+              "titulo": "Como usar Funções",
+              "subtitulo": "Utilidade de Funções no C++",
+              "descricao": "Modularizando soluções com funções, parâmetros por valor e por referência.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/nocoes-avancadas-de-cpp/aula-02.pdf",
+              "exercicios": "materiais/nocoes-avancadas-de-cpp/exercicios-02.pdf",
+              "cor": "#3F51B5",
+              "icone": "functions"
+            },
+            {
+              "numero": "03",
+              "titulo": "O que é STL",
+              "subtitulo": "Explicando o que é STL",
+              "descricao": "Panorama da Standard Template Library: containers, iteradores e algoritmos prontos.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/nocoes-avancadas-de-cpp/aula-03.pdf",
+              "exercicios": "materiais/nocoes-avancadas-de-cpp/exercicios-03.pdf",
+              "cor": "#9C27B0",
+              "icone": "widgets_rounded"
+            },
+            {
+              "numero": "04",
+              "titulo": "Como usar Pair",
+              "subtitulo": "Problemas que usam Pair",
+              "descricao": "Agrupando dois valores com pair e ordenando pares em problemas de olimpíada.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/nocoes-avancadas-de-cpp/aula-04.pdf",
+              "exercicios": "materiais/nocoes-avancadas-de-cpp/exercicios-04.pdf",
+              "cor": "#2196F3",
+              "icone": "join_full_rounded"
+            },
+            {
+              "numero": "05",
+              "titulo": "Como usar Vector",
+              "subtitulo": "Problemas que usam Vector",
+              "descricao": "O array dinâmico da STL: push_back, size, sort e percorrimento eficiente.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/nocoes-avancadas-de-cpp/aula-05.pdf",
+              "exercicios": "materiais/nocoes-avancadas-de-cpp/exercicios-05.pdf",
+              "cor": "#4CAF50",
+              "icone": "table_rows_rounded"
+            },
+            {
+              "numero": "06",
+              "titulo": "Como usar Stack",
+              "subtitulo": "Problemas que usam Stack",
+              "descricao": "A pilha (LIFO) e seus usos clássicos: parênteses balanceados e histórico de operações.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/nocoes-avancadas-de-cpp/aula-06.pdf",
+              "exercicios": "materiais/nocoes-avancadas-de-cpp/exercicios-06.pdf",
+              "cor": "#FF9800",
+              "icone": "layers_rounded"
+            },
+            {
+              "numero": "07",
+              "titulo": "Como usar Queue",
+              "subtitulo": "Problemas que usam Queue",
+              "descricao": "A fila (FIFO) e sua importância em simulações e na busca em largura (BFS).",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/nocoes-avancadas-de-cpp/aula-07.pdf",
+              "exercicios": "materiais/nocoes-avancadas-de-cpp/exercicios-07.pdf",
+              "cor": "#009688",
+              "icone": "queue_rounded"
+            },
+            {
+              "numero": "08",
+              "titulo": "Como usar Set",
+              "subtitulo": "Problemas que usam Set",
+              "descricao": "Conjuntos ordenados sem repetição: inserção, busca e remoção em O(log n).",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/nocoes-avancadas-de-cpp/aula-08.pdf",
+              "exercicios": "materiais/nocoes-avancadas-de-cpp/exercicios-08.pdf",
+              "cor": "#673AB7",
+              "icone": "filter_alt"
+            },
+            {
+              "numero": "09",
+              "titulo": "Como usar Map",
+              "subtitulo": "Problemas que usam Map",
+              "descricao": "Dicionários chave-valor para contagem de frequências e associações rápidas.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/nocoes-avancadas-de-cpp/aula-09.pdf",
+              "exercicios": "materiais/nocoes-avancadas-de-cpp/exercicios-09.pdf",
+              "cor": "#E91E63",
+              "icone": "map_rounded"
+            },
+            {
+              "numero": "10",
+              "titulo": "Como usar Priority Queue",
+              "subtitulo": "Problemas que usam Priority Queue",
+              "descricao": "A fila de prioridade (heap) para sempre acessar o maior ou menor elemento primeiro.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/nocoes-avancadas-de-cpp/aula-10.pdf",
+              "exercicios": "materiais/nocoes-avancadas-de-cpp/exercicios-10.pdf",
+              "cor": "#FF5252",
+              "icone": "low_priority_rounded"
+            },
+            {
+              "numero": "11",
+              "titulo": "O que são ordenações?",
+              "subtitulo": "Bubble Sort",
+              "descricao": "Conceito de ordenação, o Bubble Sort passo a passo e o sort() da STL.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/nocoes-avancadas-de-cpp/aula-11.pdf",
+              "exercicios": "materiais/nocoes-avancadas-de-cpp/exercicios-11.pdf",
+              "cor": "#FFC107",
+              "icone": "sort_rounded"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

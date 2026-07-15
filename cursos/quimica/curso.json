@@ -1,0 +1,245 @@
+{
+  "id": "quimica",
+  "materia": "Química",
+  "titulo": "Curso de Química",
+  "subtitulo": "Da tabela periódica às reações complexas",
+  "modulos": [
+    {
+      "id": "quimica-geral",
+      "titulo": "Tópico 1: Química Geral",
+      "topicos": [
+        {
+          "id": "introducao-a-quimica",
+          "titulo": "Introdução à Química",
+          "subtitulo": "História, Substâncias, Tabela Periódica...",
+          "categoria": "Introdução",
+          "cor": "#448AFF",
+          "icone": "science",
+          "aulas": []
+        },
+        {
+          "id": "calculos-quimicos",
+          "titulo": "Cálculos Químicos",
+          "subtitulo": "Leis Ponderais, Balanceamento...",
+          "categoria": "Cálculos",
+          "cor": "#448AFF",
+          "icone": "calculate_rounded",
+          "aulas": []
+        },
+        {
+          "id": "o-atomo",
+          "titulo": "O Átomo",
+          "subtitulo": "Modelos Atômicos, Números Quânticos...",
+          "categoria": "Atomística",
+          "cor": "#448AFF",
+          "icone": "hub_rounded",
+          "aulas": []
+        },
+        {
+          "id": "moleculas-e-propriedades",
+          "titulo": "Moléculas e Propriedades",
+          "subtitulo": "NOX, Geometria Molecular...",
+          "categoria": "Propriedades",
+          "cor": "#448AFF",
+          "icone": "bubble_chart",
+          "aulas": []
+        }
+      ]
+    },
+    {
+      "id": "quimica-inorganica",
+      "titulo": "Tópico 2: Química Inorgânica",
+      "topicos": [
+        {
+          "id": "funcoes-inorganicas",
+          "titulo": "Funções Inorgânicas",
+          "subtitulo": "Sais, Ácidos, Bases...",
+          "categoria": "Inorgânica",
+          "cor": "#00A399",
+          "icone": "category_rounded",
+          "aulas": []
+        },
+        {
+          "id": "reacoes-inorganicas",
+          "titulo": "Reações Inorgânicas",
+          "subtitulo": "Reações com Sais, Ácidos, Bases...",
+          "categoria": "Inorgânica",
+          "cor": "#FFB74D",
+          "icone": "compare_arrows",
+          "aulas": []
+        },
+        {
+          "id": "outros-topicos-inorganicos",
+          "titulo": "Outros Tópicos Inorgânicos",
+          "subtitulo": "Estrutura de Lewis, Complexos de Coordenação...",
+          "categoria": "Inorgânica",
+          "cor": "#CE93D8",
+          "icone": "assessment_outlined",
+          "aulas": []
+        }
+      ]
+    },
+    {
+      "id": "fisico-quimica",
+      "titulo": "Tópico 3: Físico Química",
+      "topicos": [
+        {
+          "id": "termodinamica",
+          "titulo": "Termodinâmica",
+          "subtitulo": "Entropia, Energia Livre, Leis da Termodinâmica...",
+          "categoria": "Física",
+          "cor": "#FF5252",
+          "icone": "thermostat",
+          "aulas": []
+        },
+        {
+          "id": "termoquimica",
+          "titulo": "Termoquímica",
+          "subtitulo": "Entalpia, Lei de Hess, Calor de Reação...",
+          "categoria": "Física",
+          "cor": "#FF5252",
+          "icone": "local_fire_department_rounded",
+          "aulas": []
+        },
+        {
+          "id": "cinetica-quimica",
+          "titulo": "Cinética Química",
+          "subtitulo": "Velocidade de Reação, Mecanismos...",
+          "categoria": "Física",
+          "cor": "#40C4FF",
+          "icone": "speed",
+          "aulas": []
+        },
+        {
+          "id": "equilibrio-quimico",
+          "titulo": "Equilíbrio Químico",
+          "subtitulo": "Sistema em Equilíbrio, Constante de Equilíbrio...",
+          "categoria": "Física",
+          "cor": "#B2FF59",
+          "icone": "balance_rounded",
+          "aulas": []
+        }
+      ]
+    },
+    {
+      "id": "quimica-organica",
+      "titulo": "Tópico 4: Química Orgânica",
+      "topicos": [
+        {
+          "id": "introducao-a-quimica-organica",
+          "titulo": "Introdução à Química Orgânica",
+          "subtitulo": "Hidrocarbonetos, Funções Orgânicas, Reações Orgânicas...",
+          "categoria": "Introdução",
+          "cor": "#18FFFF",
+          "icone": "broadcast_on_home_rounded",
+          "aulas": []
+        },
+        {
+          "id": "reacoes-organicas",
+          "titulo": "Reações Orgânicas",
+          "subtitulo": "Introdução a Reações Orgânicas, Mecanismos de Reação...",
+          "categoria": "Orgânica",
+          "cor": "#18FFFF",
+          "icone": "visibility",
+          "aulas": []
+        }
+      ]
+    },
+    {
+      "id": "quimica-analitica",
+      "titulo": "Tópico 5: Química Analítica",
+      "topicos": [
+        {
+          "id": "introducao-a-quimica-analitica",
+          "titulo": "Introdução à Química Analítica",
+          "subtitulo": "Segurança, vidrarias e equipamentos",
+          "categoria": "Fundamentos",
+          "cor": "#18FFFF",
+          "icone": "science",
+          "aulas": []
+        },
+        {
+          "id": "marcha-analitica",
+          "titulo": "Marcha Analítica",
+          "subtitulo": "Separação e identificação de cátions",
+          "categoria": "Análise Qualitativa",
+          "cor": "#18FFFF",
+          "icone": "account_tree",
+          "aulas": []
+        },
+        {
+          "id": "testes-organicos",
+          "titulo": "Testes Orgânicos",
+          "subtitulo": "Identificação de funções orgânicas",
+          "categoria": "Análise Qualitativa",
+          "cor": "#40C4FF",
+          "icone": "biotech",
+          "aulas": []
+        },
+        {
+          "id": "titulacoes-acido-base",
+          "titulo": "Titulações Ácido-Base",
+          "subtitulo": "Neutralização e indicadores",
+          "categoria": "Análise Volumétrica",
+          "cor": "#64FFDA",
+          "icone": "science_outlined",
+          "aulas": []
+        },
+        {
+          "id": "complexometria",
+          "titulo": "Complexometria",
+          "subtitulo": "Titulações com EDTA",
+          "categoria": "Análise Volumétrica",
+          "cor": "#69F0AE",
+          "icone": "bubble_chart",
+          "aulas": []
+        },
+        {
+          "id": "titulacoes-redox",
+          "titulo": "Titulações Redox",
+          "subtitulo": "Iodometria e Permanganometria",
+          "categoria": "Análise Volumétrica",
+          "cor": "#FFAB40",
+          "icone": "compare_arrows",
+          "aulas": []
+        },
+        {
+          "id": "argentometria",
+          "titulo": "Argentometria",
+          "subtitulo": "Mohr, Volhard e Fajans",
+          "categoria": "Análise Volumétrica",
+          "cor": "#448AFF",
+          "icone": "grain",
+          "aulas": []
+        },
+        {
+          "id": "metodos-eletroanaliticos",
+          "titulo": "Métodos Eletroanalíticos",
+          "subtitulo": "Potenciometria e Condutimetria",
+          "categoria": "Instrumental",
+          "cor": "#E040FB",
+          "icone": "electrical_services",
+          "aulas": []
+        },
+        {
+          "id": "espectrofotometria",
+          "titulo": "Espectrofotometria",
+          "subtitulo": "Análise por absorção de luz",
+          "categoria": "Instrumental",
+          "cor": "#FFD740",
+          "icone": "waves",
+          "aulas": []
+        },
+        {
+          "id": "metodos-de-separacao",
+          "titulo": "Métodos de Separação",
+          "subtitulo": "Cristalização, extração e cromatografia",
+          "categoria": "Separação",
+          "cor": "#FF6E40",
+          "icone": "filter_alt",
+          "aulas": []
+        }
+      ]
+    }
+  ]
+}

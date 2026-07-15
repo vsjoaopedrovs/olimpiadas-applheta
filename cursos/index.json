@@ -1,0 +1,45 @@
+{
+  "versao": 1,
+  "cursos": [
+    {
+      "id": "matematica",
+      "materia": "Matemática",
+      "titulo": "Curso de Matemática",
+      "subtitulo": "Fundamentos e aplicações avançadas",
+      "arquivo": "matematica/curso.json",
+      "ordem": 1
+    },
+    {
+      "id": "informatica",
+      "materia": "Informática",
+      "titulo": "Curso de Informática",
+      "subtitulo": "De pequenos algoritmos até grandes sistemas",
+      "arquivo": "informatica/curso.json",
+      "ordem": 2
+    },
+    {
+      "id": "robotica",
+      "materia": "Robótica",
+      "titulo": "Curso de Robótica",
+      "subtitulo": "Do código base à Inteligência Artificial",
+      "arquivo": "robotica/curso.json",
+      "ordem": 3
+    },
+    {
+      "id": "quimica",
+      "materia": "Química",
+      "titulo": "Curso de Química",
+      "subtitulo": "Da tabela periódica às reações complexas",
+      "arquivo": "quimica/curso.json",
+      "ordem": 4
+    },
+    {
+      "id": "economia",
+      "materia": "Economia",
+      "titulo": "Curso de Economia",
+      "subtitulo": "Gestão de recursos e finanças globais",
+      "arquivo": "economia/curso.json",
+      "ordem": 5
+    }
+  ]
+}

@@ -1,0 +1,1042 @@
+{
+  "id": "matematica",
+  "materia": "Matemática",
+  "titulo": "Curso de Matemática",
+  "subtitulo": "Fundamentos e aplicações avançadas",
+  "modulos": [
+    {
+      "id": "algebra",
+      "titulo": "Tópico 1: Álgebra",
+      "topicos": [
+        {
+          "id": "introducao-a-algebra",
+          "titulo": "Introdução à Álgebra",
+          "subtitulo": "Produtos Notáveis, Sistemas de equações...",
+          "categoria": "Álgebra",
+          "cor": "#50C878",
+          "icone": "analytics_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Produtos Notáveis",
+              "subtitulo": "Quadrados, cubos e diferença de quadrados",
+              "descricao": "As identidades algébricas essenciais: (a±b)², (a±b)³, a²-b² e como reconhecê-las em problemas.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-algebra/aula-01.pdf",
+              "exercicios": "materiais/introducao-a-algebra/exercicios-01.pdf",
+              "cor": "#50C878",
+              "icone": "star"
+            },
+            {
+              "numero": "02",
+              "titulo": "Fatorações",
+              "subtitulo": "Transformando somas em produtos",
+              "descricao": "Fator comum, agrupamento, Simon's Favorite Factoring Trick e fatorações clássicas de olimpíada.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-algebra/aula-02.pdf",
+              "exercicios": "materiais/introducao-a-algebra/exercicios-02.pdf",
+              "cor": "#4CAF50",
+              "icone": "call_split"
+            },
+            {
+              "numero": "03",
+              "titulo": "Sistemas de Equações",
+              "subtitulo": "Substituição, eliminação e simetria",
+              "descricao": "Resolvendo sistemas lineares e não-lineares, com foco em sistemas simétricos que aparecem em provas.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-algebra/aula-03.pdf",
+              "exercicios": "materiais/introducao-a-algebra/exercicios-03.pdf",
+              "cor": "#009688",
+              "icone": "grid_on"
+            },
+            {
+              "numero": "04",
+              "titulo": "Somas Telescópicas",
+              "subtitulo": "Cancelamentos em cadeia",
+              "descricao": "A técnica de escrever termos como diferenças para colapsar somas e produtos gigantes.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-algebra/aula-04.pdf",
+              "exercicios": "materiais/introducao-a-algebra/exercicios-04.pdf",
+              "cor": "#3F51B5",
+              "icone": "functions"
+            }
+          ]
+        },
+        {
+          "id": "recorrencias",
+          "titulo": "Recorrências",
+          "subtitulo": "Recorrências Lineares e Não-lineares",
+          "categoria": "Álgebra",
+          "cor": "#4DB6AC",
+          "icone": "psychology_alt_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Introdução a Recorrências",
+              "subtitulo": "Sequências definidas por regras",
+              "descricao": "O que é uma recorrência, condições iniciais e exemplos clássicos como Fibonacci e Torres de Hanói.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/recorrencias/aula-01.pdf",
+              "exercicios": "materiais/recorrencias/exercicios-01.pdf",
+              "cor": "#4DB6AC",
+              "icone": "star"
+            },
+            {
+              "numero": "02",
+              "titulo": "Recorrências Lineares",
+              "subtitulo": "Equação característica",
+              "descricao": "Resolvendo recorrências lineares homogêneas com a equação característica e raízes repetidas.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/recorrencias/aula-02.pdf",
+              "exercicios": "materiais/recorrencias/exercicios-02.pdf",
+              "cor": "#2196F3",
+              "icone": "functions"
+            },
+            {
+              "numero": "03",
+              "titulo": "Recorrências Não-lineares",
+              "subtitulo": "Substituições e invariantes",
+              "descricao": "Técnicas para domar recorrências não-lineares: substituições inteligentes, periodicidade e invariantes.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/recorrencias/aula-03.pdf",
+              "exercicios": "materiais/recorrencias/exercicios-03.pdf",
+              "cor": "#673AB7",
+              "icone": "loop"
+            }
+          ]
+        },
+        {
+          "id": "analise-e-calculo",
+          "titulo": "Análise e Cálculo",
+          "subtitulo": "Limites, Derivadas...",
+          "categoria": "Álgebra",
+          "cor": "#4DB6AC",
+          "icone": "psychology_alt_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Limites",
+              "subtitulo": "O comportamento no infinito",
+              "descricao": "Noção intuitiva e formal de limite, limites notáveis e o comportamento assintótico de sequências.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/analise-e-calculo/aula-01.pdf",
+              "exercicios": "materiais/analise-e-calculo/exercicios-01.pdf",
+              "cor": "#4DB6AC",
+              "icone": "trending_flat_rounded"
+            },
+            {
+              "numero": "02",
+              "titulo": "Derivadas",
+              "subtitulo": "Taxa de variação e tangentes",
+              "descricao": "Definição de derivada, regras de derivação e o uso de derivadas para achar máximos e mínimos.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/analise-e-calculo/aula-02.pdf",
+              "exercicios": "materiais/analise-e-calculo/exercicios-02.pdf",
+              "cor": "#2196F3",
+              "icone": "auto_graph_rounded"
+            },
+            {
+              "numero": "03",
+              "titulo": "Análise em Olimpíadas",
+              "subtitulo": "Sequências monótonas e convergência",
+              "descricao": "Aplicando ferramentas de análise em problemas olímpicos: monotonicidade, limitação e convergência.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/analise-e-calculo/aula-03.pdf",
+              "exercicios": "materiais/analise-e-calculo/exercicios-03.pdf",
+              "cor": "#673AB7",
+              "icone": "insights_rounded"
+            }
+          ]
+        },
+        {
+          "id": "funcoes",
+          "titulo": "Funções",
+          "subtitulo": "Equações funcionais, Pontos Fixos...",
+          "categoria": "Álgebra",
+          "cor": "#4DB6AC",
+          "icone": "psychology_alt_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Conceitos e Propriedades",
+              "subtitulo": "Injetividade, sobrejetividade e composição",
+              "descricao": "A linguagem de funções: domínio, imagem, injetividade, sobrejetividade e composição.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/funcoes/aula-01.pdf",
+              "exercicios": "materiais/funcoes/exercicios-01.pdf",
+              "cor": "#4DB6AC",
+              "icone": "star"
+            },
+            {
+              "numero": "02",
+              "titulo": "Equações Funcionais",
+              "subtitulo": "Substituições espertas",
+              "descricao": "Primeiros passos em equações funcionais: substituições, a equação de Cauchy e simetrias.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/funcoes/aula-02.pdf",
+              "exercicios": "materiais/funcoes/exercicios-02.pdf",
+              "cor": "#2196F3",
+              "icone": "functions"
+            },
+            {
+              "numero": "03",
+              "titulo": "Pontos Fixos e Iterações",
+              "subtitulo": "f(x) = x e composições repetidas",
+              "descricao": "Como pontos fixos e iterações de funções resolvem equações funcionais e problemas de sequências.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/funcoes/aula-03.pdf",
+              "exercicios": "materiais/funcoes/exercicios-03.pdf",
+              "cor": "#673AB7",
+              "icone": "adjust_rounded"
+            }
+          ]
+        },
+        {
+          "id": "desigualdades",
+          "titulo": "Desigualdades",
+          "subtitulo": "Desigualdade das médias, Cauchy-Schwarz...",
+          "categoria": "Álgebra",
+          "cor": "#4DB6AC",
+          "icone": "psychology_alt_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Desigualdade das Médias",
+              "subtitulo": "MA ≥ MG ≥ MH",
+              "descricao": "As médias aritmética, geométrica e harmônica, quando vale a igualdade e aplicações diretas.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/desigualdades/aula-01.pdf",
+              "exercicios": "materiais/desigualdades/exercicios-01.pdf",
+              "cor": "#4DB6AC",
+              "icone": "balance_rounded"
+            },
+            {
+              "numero": "02",
+              "titulo": "Cauchy-Schwarz",
+              "subtitulo": "A desigualdade mais versátil",
+              "descricao": "Cauchy-Schwarz nas formas clássica e de Engel (Titu), com estratégias para reconhecer quando usar.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/desigualdades/aula-02.pdf",
+              "exercicios": "materiais/desigualdades/exercicios-02.pdf",
+              "cor": "#2196F3",
+              "icone": "compare_arrows"
+            },
+            {
+              "numero": "03",
+              "titulo": "Técnicas Avançadas",
+              "subtitulo": "SOS, Schur e normalização",
+              "descricao": "Soma de quadrados, desigualdade de Schur e truques de normalização para problemas difíceis.",
+              "dificuldade": 5,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/desigualdades/aula-03.pdf",
+              "exercicios": "materiais/desigualdades/exercicios-03.pdf",
+              "cor": "#673AB7",
+              "icone": "tune_rounded"
+            }
+          ]
+        },
+        {
+          "id": "polinomios",
+          "titulo": "Polinômios",
+          "subtitulo": "Raízes, Equações polinomiais...",
+          "categoria": "Álgebra",
+          "cor": "#4DB6AC",
+          "icone": "psychology_alt_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Operações e Raízes",
+              "subtitulo": "Divisão, resto e Teorema de D'Alembert",
+              "descricao": "Divisão de polinômios, o teorema do resto e a relação entre raízes e fatores.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/polinomios/aula-01.pdf",
+              "exercicios": "materiais/polinomios/exercicios-01.pdf",
+              "cor": "#4DB6AC",
+              "icone": "star"
+            },
+            {
+              "numero": "02",
+              "titulo": "Relações de Girard",
+              "subtitulo": "Somas e produtos de raízes",
+              "descricao": "As relações entre coeficientes e raízes, e como usá-las sem resolver a equação.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/polinomios/aula-02.pdf",
+              "exercicios": "materiais/polinomios/exercicios-02.pdf",
+              "cor": "#2196F3",
+              "icone": "functions"
+            },
+            {
+              "numero": "03",
+              "titulo": "Equações Polinomiais",
+              "subtitulo": "Raízes racionais, múltiplas e complexas",
+              "descricao": "Teorema das raízes racionais, multiplicidade e o papel das raízes complexas conjugadas.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/polinomios/aula-03.pdf",
+              "exercicios": "materiais/polinomios/exercicios-03.pdf",
+              "cor": "#673AB7",
+              "icone": "auto_graph_rounded"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combinatoria",
+      "titulo": "Tópico 2: Combinatória",
+      "topicos": [
+        {
+          "id": "introducao-a-combinatoria",
+          "titulo": "Introdução à Combinatória",
+          "subtitulo": "Contagem, Princípio Multiplicativo...",
+          "categoria": "Combinatória",
+          "cor": "#64B5F6",
+          "icone": "psychology_alt_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Princípios de Contagem",
+              "subtitulo": "Aditivo e Multiplicativo",
+              "descricao": "Os dois princípios fundamentais da contagem e como dividir um problema em etapas ou casos.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-combinatoria/aula-01.pdf",
+              "exercicios": "materiais/introducao-a-combinatoria/exercicios-01.pdf",
+              "cor": "#64B5F6",
+              "icone": "star"
+            },
+            {
+              "numero": "02",
+              "titulo": "Permutações e Combinações",
+              "subtitulo": "Arranjos com e sem ordem",
+              "descricao": "Fatorial, permutações com repetição, combinações e o triângulo de Pascal.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-combinatoria/aula-02.pdf",
+              "exercicios": "materiais/introducao-a-combinatoria/exercicios-02.pdf",
+              "cor": "#2196F3",
+              "icone": "grid_on"
+            },
+            {
+              "numero": "03",
+              "titulo": "Casa dos Pombos",
+              "subtitulo": "O princípio das gavetas",
+              "descricao": "Se há mais pombos que casas, alguma casa tem dois pombos — e as consequências surpreendentes disso.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-combinatoria/aula-03.pdf",
+              "exercicios": "materiais/introducao-a-combinatoria/exercicios-03.pdf",
+              "cor": "#009688",
+              "icone": "inventory_2_rounded"
+            },
+            {
+              "numero": "04",
+              "titulo": "Contagem Dupla",
+              "subtitulo": "Contando de dois jeitos",
+              "descricao": "A técnica de contar o mesmo conjunto de duas formas diferentes para provar identidades.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-combinatoria/aula-04.pdf",
+              "exercicios": "materiais/introducao-a-combinatoria/exercicios-04.pdf",
+              "cor": "#673AB7",
+              "icone": "compare_arrows"
+            }
+          ]
+        },
+        {
+          "id": "jogos",
+          "titulo": "Jogos",
+          "subtitulo": "Colorações, Invariantes...",
+          "categoria": "Combinatória",
+          "cor": "#FFA726",
+          "icone": "storefront_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Invariantes",
+              "subtitulo": "O que nunca muda",
+              "descricao": "Encontrando quantidades que se preservam a cada jogada para provar impossibilidades.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/jogos/aula-01.pdf",
+              "exercicios": "materiais/jogos/exercicios-01.pdf",
+              "cor": "#FFA726",
+              "icone": "lock_rounded"
+            },
+            {
+              "numero": "02",
+              "titulo": "Colorações",
+              "subtitulo": "Tabuleiros e paridade",
+              "descricao": "Pintando tabuleiros e objetos para revelar obstruções escondidas em problemas de cobertura.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/jogos/aula-02.pdf",
+              "exercicios": "materiais/jogos/exercicios-02.pdf",
+              "cor": "#E91E63",
+              "icone": "palette"
+            },
+            {
+              "numero": "03",
+              "titulo": "Estratégias Vencedoras",
+              "subtitulo": "Posições vencedoras e perdedoras",
+              "descricao": "Análise de jogos de dois jogadores: simetria, posições P e N e o jogo de Nim.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/jogos/aula-03.pdf",
+              "exercicios": "materiais/jogos/exercicios-03.pdf",
+              "cor": "#673AB7",
+              "icone": "videogame_asset_outlined"
+            }
+          ]
+        },
+        {
+          "id": "combinatoria-geometrica",
+          "titulo": "Combinatória Geométrica",
+          "subtitulo": "Triangulações, Concorrência de Retas...",
+          "categoria": "Combinatória",
+          "cor": "#BA68C8",
+          "icone": "videogame_asset_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Triangulações",
+              "subtitulo": "Dividindo polígonos",
+              "descricao": "Contando triangulações, diagonais e regiões formadas por retas e polígonos no plano.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/combinatoria-geometrica/aula-01.pdf",
+              "exercicios": "materiais/combinatoria-geometrica/exercicios-01.pdf",
+              "cor": "#BA68C8",
+              "icone": "change_history_rounded"
+            },
+            {
+              "numero": "02",
+              "titulo": "Pontos e Retas no Plano",
+              "subtitulo": "Concorrência e posição geral",
+              "descricao": "Configurações de pontos e retas: interseções, fecho convexo e argumentos extremais.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/combinatoria-geometrica/aula-02.pdf",
+              "exercicios": "materiais/combinatoria-geometrica/exercicios-02.pdf",
+              "cor": "#673AB7",
+              "icone": "scatter_plot_rounded"
+            }
+          ]
+        },
+        {
+          "id": "grafos",
+          "titulo": "Grafos",
+          "subtitulo": "Árvores, Emparelhamentos...",
+          "categoria": "Combinatória",
+          "cor": "#BA68C8",
+          "icone": "videogame_asset_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Introdução a Grafos",
+              "subtitulo": "Vértices, arestas e graus",
+              "descricao": "A linguagem de grafos, o lema do aperto de mãos e primeiros problemas de conexidade.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/grafos/aula-01.pdf",
+              "exercicios": "materiais/grafos/exercicios-01.pdf",
+              "cor": "#BA68C8",
+              "icone": "hub_rounded"
+            },
+            {
+              "numero": "02",
+              "titulo": "Árvores",
+              "subtitulo": "Grafos sem ciclos",
+              "descricao": "Propriedades de árvores, contagem de arestas e argumentos de indução em grafos.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/grafos/aula-02.pdf",
+              "exercicios": "materiais/grafos/exercicios-02.pdf",
+              "cor": "#4CAF50",
+              "icone": "account_tree_rounded"
+            },
+            {
+              "numero": "03",
+              "titulo": "Emparelhamentos",
+              "subtitulo": "Grafos bipartidos e Teorema de Hall",
+              "descricao": "Emparelhamentos perfeitos, o teorema do casamento de Hall e aplicações em problemas de seleção.",
+              "dificuldade": 5,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/grafos/aula-03.pdf",
+              "exercicios": "materiais/grafos/exercicios-03.pdf",
+              "cor": "#673AB7",
+              "icone": "join_full_rounded"
+            }
+          ]
+        },
+        {
+          "id": "combinatoria-algebrica",
+          "titulo": "Combinatória Algébrica",
+          "subtitulo": "Funções Geratrizes, Recorrências...",
+          "categoria": "Combinatória",
+          "cor": "#BA68C8",
+          "icone": "videogame_asset_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Funções Geratrizes",
+              "subtitulo": "Séries que contam",
+              "descricao": "Codificando sequências em séries de potências para resolver problemas de contagem e partições.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/combinatoria-algebrica/aula-01.pdf",
+              "exercicios": "materiais/combinatoria-algebrica/exercicios-01.pdf",
+              "cor": "#BA68C8",
+              "icone": "functions"
+            },
+            {
+              "numero": "02",
+              "titulo": "Recorrências em Contagem",
+              "subtitulo": "Contando com o passo anterior",
+              "descricao": "Montando recorrências para problemas de contagem: caminhos, palavras proibidas e Catalan.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/combinatoria-algebrica/aula-02.pdf",
+              "exercicios": "materiais/combinatoria-algebrica/exercicios-02.pdf",
+              "cor": "#673AB7",
+              "icone": "loop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geometria",
+      "titulo": "Tópico 3: Geometria",
+      "topicos": [
+        {
+          "id": "introducao-a-geometria",
+          "titulo": "Introdução à Geometria",
+          "subtitulo": "Semelhanças, Congruências...",
+          "categoria": "Geometria",
+          "cor": "#FFD700",
+          "icone": "public_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Ângulos e Paralelismo",
+              "subtitulo": "A caça aos ângulos",
+              "descricao": "Ângulos em retas paralelas, soma dos ângulos internos e a técnica de angle chasing.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-geometria/aula-01.pdf",
+              "exercicios": "materiais/introducao-a-geometria/exercicios-01.pdf",
+              "cor": "#FFD700",
+              "icone": "star"
+            },
+            {
+              "numero": "02",
+              "titulo": "Congruência de Triângulos",
+              "subtitulo": "LAL, ALA, LLL",
+              "descricao": "Os casos de congruência e como usá-los para transferir medidas entre figuras.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-geometria/aula-02.pdf",
+              "exercicios": "materiais/introducao-a-geometria/exercicios-02.pdf",
+              "cor": "#FF9800",
+              "icone": "change_history_rounded"
+            },
+            {
+              "numero": "03",
+              "titulo": "Semelhança de Triângulos",
+              "subtitulo": "Razões e proporções",
+              "descricao": "Casos de semelhança, teorema de Tales e as primeiras razões entre segmentos.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-geometria/aula-03.pdf",
+              "exercicios": "materiais/introducao-a-geometria/exercicios-03.pdf",
+              "cor": "#009688",
+              "icone": "aspect_ratio_rounded"
+            }
+          ]
+        },
+        {
+          "id": "geometria-sintetica",
+          "titulo": "Geometria Sintética",
+          "subtitulo": "Quadriláteros Cíclicos, Potência de Ponto...",
+          "categoria": "Geometria",
+          "cor": "#FFD700",
+          "icone": "public_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Quadriláteros Cíclicos",
+              "subtitulo": "Quatro pontos numa circunferência",
+              "descricao": "Critérios para concíclicos, ângulos inscritos e o teorema de Ptolomeu.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/geometria-sintetica/aula-01.pdf",
+              "exercicios": "materiais/geometria-sintetica/exercicios-01.pdf",
+              "cor": "#FFD700",
+              "icone": "circle_outlined"
+            },
+            {
+              "numero": "02",
+              "titulo": "Potência de Ponto",
+              "subtitulo": "Secantes, tangentes e cordas",
+              "descricao": "A potência de um ponto em relação a uma circunferência e suas aplicações em comprimentos.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/geometria-sintetica/aula-02.pdf",
+              "exercicios": "materiais/geometria-sintetica/exercicios-02.pdf",
+              "cor": "#FF9800",
+              "icone": "adjust_rounded"
+            },
+            {
+              "numero": "03",
+              "titulo": "Eixos Radicais",
+              "subtitulo": "O lugar dos pontos de mesma potência",
+              "descricao": "Eixo radical de duas circunferências, centro radical e concorrência de retas.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/geometria-sintetica/aula-03.pdf",
+              "exercicios": "materiais/geometria-sintetica/exercicios-03.pdf",
+              "cor": "#673AB7",
+              "icone": "linear_scale"
+            }
+          ]
+        },
+        {
+          "id": "transformacoes-no-plano",
+          "titulo": "Transformações no Plano",
+          "subtitulo": "Homotetia, Inversão...",
+          "categoria": "Geometria",
+          "cor": "#90A4AE",
+          "icone": "account_balance_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Homotetia",
+              "subtitulo": "Ampliações e reduções",
+              "descricao": "Centros de homotetia, composição de homotetias e aplicações em tangências.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/transformacoes-no-plano/aula-01.pdf",
+              "exercicios": "materiais/transformacoes-no-plano/exercicios-01.pdf",
+              "cor": "#90A4AE",
+              "icone": "zoom_out_map_rounded"
+            },
+            {
+              "numero": "02",
+              "titulo": "Rotações e Reflexões",
+              "subtitulo": "Movimentos rígidos",
+              "descricao": "Usando rotações e reflexões para criar congruências escondidas e resolver problemas de construção.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/transformacoes-no-plano/aula-02.pdf",
+              "exercicios": "materiais/transformacoes-no-plano/exercicios-02.pdf",
+              "cor": "#2196F3",
+              "icone": "rotate_right_rounded"
+            },
+            {
+              "numero": "03",
+              "titulo": "Inversão",
+              "subtitulo": "Trocando retas por circunferências",
+              "descricao": "A transformação de inversão, suas propriedades e como simplificar configurações com muitas circunferências.",
+              "dificuldade": 5,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/transformacoes-no-plano/aula-03.pdf",
+              "exercicios": "materiais/transformacoes-no-plano/exercicios-03.pdf",
+              "cor": "#673AB7",
+              "icone": "flip_camera_android_rounded"
+            }
+          ]
+        },
+        {
+          "id": "configuracoes-notaveis",
+          "titulo": "Configurações Notáveis",
+          "subtitulo": "Reta de Simson, Pontos Isogonais...",
+          "categoria": "Geometria",
+          "cor": "#AED581",
+          "icone": "newspaper_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Reta de Simson e Reta de Euler",
+              "subtitulo": "Alinhamentos clássicos",
+              "descricao": "As retas de Simson e de Euler, o círculo dos nove pontos e suas conexões.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/configuracoes-notaveis/aula-01.pdf",
+              "exercicios": "materiais/configuracoes-notaveis/exercicios-01.pdf",
+              "cor": "#AED581",
+              "icone": "linear_scale"
+            },
+            {
+              "numero": "02",
+              "titulo": "Pontos Isogonais",
+              "subtitulo": "Conjugados e simedianas",
+              "descricao": "Conjugados isogonais, a simediana e configurações com o ponto de Lemoine.",
+              "dificuldade": 5,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/configuracoes-notaveis/aula-02.pdf",
+              "exercicios": "materiais/configuracoes-notaveis/exercicios-02.pdf",
+              "cor": "#673AB7",
+              "icone": "scatter_plot_rounded"
+            }
+          ]
+        },
+        {
+          "id": "geometria-analitica",
+          "titulo": "Geometria Analítica",
+          "subtitulo": "Trigonometria, Coordenadas Baricêntricas...",
+          "categoria": "Geometria",
+          "cor": "#FFD700",
+          "icone": "public_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Trigonometria",
+              "subtitulo": "Leis dos senos e cossenos",
+              "descricao": "Identidades trigonométricas, leis dos senos e cossenos e o método trigonométrico em geometria.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/geometria-analitica/aula-01.pdf",
+              "exercicios": "materiais/geometria-analitica/exercicios-01.pdf",
+              "cor": "#FFD700",
+              "icone": "waves"
+            },
+            {
+              "numero": "02",
+              "titulo": "Coordenadas Cartesianas",
+              "subtitulo": "Geometria com equações",
+              "descricao": "Retas, circunferências e distâncias no plano cartesiano; quando vale a pena 'cartesianizar'.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/geometria-analitica/aula-02.pdf",
+              "exercicios": "materiais/geometria-analitica/exercicios-02.pdf",
+              "cor": "#2196F3",
+              "icone": "grid_on"
+            },
+            {
+              "numero": "03",
+              "titulo": "Coordenadas Baricêntricas",
+              "subtitulo": "O triângulo como referência",
+              "descricao": "Introdução às coordenadas baricêntricas e o cálculo de pontos notáveis e colinearidades.",
+              "dificuldade": 5,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/geometria-analitica/aula-03.pdf",
+              "exercicios": "materiais/geometria-analitica/exercicios-03.pdf",
+              "cor": "#673AB7",
+              "icone": "change_history_rounded"
+            }
+          ]
+        },
+        {
+          "id": "geometria-projetiva",
+          "titulo": "Geometria Projetiva",
+          "subtitulo": "Quádruplas Harmônicas, Desargues...",
+          "categoria": "Geometria",
+          "cor": "#FFD700",
+          "icone": "public_outlined",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Quádruplas Harmônicas",
+              "subtitulo": "Razão cruzada",
+              "descricao": "Razão cruzada, feixes harmônicos e as configurações harmônicas mais comuns em olimpíadas.",
+              "dificuldade": 5,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/geometria-projetiva/aula-01.pdf",
+              "exercicios": "materiais/geometria-projetiva/exercicios-01.pdf",
+              "cor": "#FFD700",
+              "icone": "linear_scale"
+            },
+            {
+              "numero": "02",
+              "titulo": "Desargues e Pascal",
+              "subtitulo": "Teoremas de projetividade",
+              "descricao": "Os teoremas de Desargues, Pappus e Pascal e como aplicá-los em problemas de colinearidade.",
+              "dificuldade": 5,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/geometria-projetiva/aula-02.pdf",
+              "exercicios": "materiais/geometria-projetiva/exercicios-02.pdf",
+              "cor": "#673AB7",
+              "icone": "hub_rounded"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teoria-dos-numeros",
+      "titulo": "Tópico 4: Teoria Dos Números",
+      "topicos": [
+        {
+          "id": "introducao-a-teoria-dos-numeros",
+          "titulo": "Introdução à Teoria dos Números",
+          "subtitulo": "Divisibilidades, Números Primos...",
+          "categoria": "Teoria dos Números",
+          "cor": "#81C784",
+          "icone": "trending_up_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Divisibilidade",
+              "subtitulo": "Múltiplos, divisores e critérios",
+              "descricao": "Propriedades básicas de divisibilidade, algoritmo da divisão e critérios de divisibilidade.",
+              "dificuldade": 1,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-teoria-dos-numeros/aula-01.pdf",
+              "exercicios": "materiais/introducao-a-teoria-dos-numeros/exercicios-01.pdf",
+              "cor": "#81C784",
+              "icone": "star"
+            },
+            {
+              "numero": "02",
+              "titulo": "MDC, MMC e Euclides",
+              "subtitulo": "O algoritmo mais antigo",
+              "descricao": "Máximo divisor comum, o algoritmo de Euclides e a identidade de Bézout.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-teoria-dos-numeros/aula-02.pdf",
+              "exercicios": "materiais/introducao-a-teoria-dos-numeros/exercicios-02.pdf",
+              "cor": "#4CAF50",
+              "icone": "swap_horiz"
+            },
+            {
+              "numero": "03",
+              "titulo": "Números Primos",
+              "subtitulo": "Os blocos fundamentais",
+              "descricao": "Teorema fundamental da aritmética, infinitude dos primos e contagem de divisores.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/introducao-a-teoria-dos-numeros/aula-03.pdf",
+              "exercicios": "materiais/introducao-a-teoria-dos-numeros/exercicios-03.pdf",
+              "cor": "#009688",
+              "icone": "grain"
+            }
+          ]
+        },
+        {
+          "id": "congruencias",
+          "titulo": "Congruências",
+          "subtitulo": "Resíduos Quadráticos, TCR...",
+          "categoria": "Teoria dos Números",
+          "cor": "#FF8A65",
+          "icone": "auto_graph_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Aritmética Modular",
+              "subtitulo": "Trabalhando com restos",
+              "descricao": "A notação de congruência, operações módulo n e os primeiros problemas de restos.",
+              "dificuldade": 2,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/congruencias/aula-01.pdf",
+              "exercicios": "materiais/congruencias/exercicios-01.pdf",
+              "cor": "#FF8A65",
+              "icone": "star"
+            },
+            {
+              "numero": "02",
+              "titulo": "Fermat e Euler",
+              "subtitulo": "Os teoremas centrais",
+              "descricao": "Pequeno Teorema de Fermat, função totiente e o Teorema de Euler com aplicações em potências.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/congruencias/aula-02.pdf",
+              "exercicios": "materiais/congruencias/exercicios-02.pdf",
+              "cor": "#FF9800",
+              "icone": "functions"
+            },
+            {
+              "numero": "03",
+              "titulo": "Teorema Chinês dos Restos",
+              "subtitulo": "Juntando congruências",
+              "descricao": "Resolvendo sistemas de congruências com módulos coprimos e aplicações construtivas.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/congruencias/aula-03.pdf",
+              "exercicios": "materiais/congruencias/exercicios-03.pdf",
+              "cor": "#673AB7",
+              "icone": "join_full_rounded"
+            },
+            {
+              "numero": "04",
+              "titulo": "Resíduos Quadráticos",
+              "subtitulo": "Quadrados módulo p",
+              "descricao": "Quais restos são quadrados perfeitos módulo p: critério de Euler e símbolo de Legendre.",
+              "dificuldade": 5,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/congruencias/aula-04.pdf",
+              "exercicios": "materiais/congruencias/exercicios-04.pdf",
+              "cor": "#E91E63",
+              "icone": "square_foot_rounded"
+            }
+          ]
+        },
+        {
+          "id": "equacoes-diofantinas",
+          "titulo": "Equações Diofantinas",
+          "subtitulo": "Triplas Pitagóricas, Salto de Vieta...",
+          "categoria": "Teoria dos Números",
+          "cor": "#FF8A65",
+          "icone": "auto_graph_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Equações Lineares",
+              "subtitulo": "ax + by = c",
+              "descricao": "Existência e estrutura das soluções inteiras de equações diofantinas lineares.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/equacoes-diofantinas/aula-01.pdf",
+              "exercicios": "materiais/equacoes-diofantinas/exercicios-01.pdf",
+              "cor": "#FF8A65",
+              "icone": "linear_scale"
+            },
+            {
+              "numero": "02",
+              "titulo": "Triplas Pitagóricas",
+              "subtitulo": "a² + b² = c²",
+              "descricao": "A parametrização completa das triplas pitagóricas e técnicas de fatoração em diofantinas.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/equacoes-diofantinas/aula-02.pdf",
+              "exercicios": "materiais/equacoes-diofantinas/exercicios-02.pdf",
+              "cor": "#FF9800",
+              "icone": "change_history_rounded"
+            },
+            {
+              "numero": "03",
+              "titulo": "Salto de Vieta",
+              "subtitulo": "Descida infinita moderna",
+              "descricao": "A técnica do Vieta Jumping em equações quadráticas com soluções inteiras, incluindo o clássico IMO 1988.",
+              "dificuldade": 5,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/equacoes-diofantinas/aula-03.pdf",
+              "exercicios": "materiais/equacoes-diofantinas/exercicios-03.pdf",
+              "cor": "#673AB7",
+              "icone": "moving_rounded"
+            }
+          ]
+        },
+        {
+          "id": "sequencias",
+          "titulo": "Sequências",
+          "subtitulo": "Ideias Comuns, Análise em TN...",
+          "categoria": "Teoria dos Números",
+          "cor": "#FF8A65",
+          "icone": "auto_graph_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Ideias Comuns",
+              "subtitulo": "Padrões e periodicidade",
+              "descricao": "Sequências definidas aritmeticamente: periodicidade módulo n, indução e padrões de dígitos.",
+              "dificuldade": 3,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/sequencias/aula-01.pdf",
+              "exercicios": "materiais/sequencias/exercicios-01.pdf",
+              "cor": "#FF8A65",
+              "icone": "timeline_rounded"
+            },
+            {
+              "numero": "02",
+              "titulo": "Análise em Teoria dos Números",
+              "subtitulo": "Crescimento e limitação",
+              "descricao": "Usando estimativas de tamanho e argumentos de crescimento para restringir soluções inteiras.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/sequencias/aula-02.pdf",
+              "exercicios": "materiais/sequencias/exercicios-02.pdf",
+              "cor": "#673AB7",
+              "icone": "insights_rounded"
+            }
+          ]
+        },
+        {
+          "id": "polinomios-nos-inteiros",
+          "titulo": "Polinômios nos Inteiros",
+          "subtitulo": "Critérios de Irredutibilidade...",
+          "categoria": "Teoria dos Números",
+          "cor": "#FF8A65",
+          "icone": "auto_graph_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Polinômios com Coeficientes Inteiros",
+              "subtitulo": "a - b divide P(a) - P(b)",
+              "descricao": "A propriedade fundamental de polinômios inteiros e suas consequências em divisibilidade.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/polinomios-nos-inteiros/aula-01.pdf",
+              "exercicios": "materiais/polinomios-nos-inteiros/exercicios-01.pdf",
+              "cor": "#FF8A65",
+              "icone": "functions"
+            },
+            {
+              "numero": "02",
+              "titulo": "Critérios de Irredutibilidade",
+              "subtitulo": "Eisenstein e redução módulo p",
+              "descricao": "Quando um polinômio não fatora: critério de Eisenstein, lema de Gauss e redução módulo p.",
+              "dificuldade": 5,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/polinomios-nos-inteiros/aula-02.pdf",
+              "exercicios": "materiais/polinomios-nos-inteiros/exercicios-02.pdf",
+              "cor": "#673AB7",
+              "icone": "block_rounded"
+            }
+          ]
+        },
+        {
+          "id": "expoentes-nos-primos",
+          "titulo": "Expoentes nos Primos",
+          "subtitulo": "Valorização P-ádica e LTE",
+          "categoria": "Teoria dos Números",
+          "cor": "#FF8A65",
+          "icone": "auto_graph_rounded",
+          "aulas": [
+            {
+              "numero": "01",
+              "titulo": "Valorização p-ádica",
+              "subtitulo": "Quantas vezes p divide n",
+              "descricao": "A função vp(n), a fórmula de Legendre para fatoriais e primeiras aplicações.",
+              "dificuldade": 4,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/expoentes-nos-primos/aula-01.pdf",
+              "exercicios": "materiais/expoentes-nos-primos/exercicios-01.pdf",
+              "cor": "#FF8A65",
+              "icone": "stacked_line_chart_rounded"
+            },
+            {
+              "numero": "02",
+              "titulo": "Lifting the Exponent",
+              "subtitulo": "O lema LTE",
+              "descricao": "O lema do levantamento do expoente para aⁿ ± bⁿ, com todas as condições e casos clássicos.",
+              "dificuldade": 5,
+              "videoAula": "https://www.youtube.com/watch?v=Y67zx6Wx2-I",
+              "material": "materiais/expoentes-nos-primos/aula-02.pdf",
+              "exercicios": "materiais/expoentes-nos-primos/exercicios-02.pdf",
+              "cor": "#673AB7",
+              "icone": "moving_rounded"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

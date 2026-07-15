@@ -1,0 +1,131 @@
+{
+  "id": "economia",
+  "materia": "Economia",
+  "titulo": "Curso de Economia",
+  "subtitulo": "Gestão de recursos e finanças globais",
+  "modulos": [
+    {
+      "id": "introducao-e-principios",
+      "titulo": "Tópico 1: Introdução e Princípios",
+      "topicos": [
+        {
+          "id": "principios",
+          "titulo": "Princípios",
+          "subtitulo": "Introdução, Métodos e Princípios da Economia",
+          "categoria": "Fundamentos",
+          "cor": "#50C878",
+          "icone": "analytics_outlined",
+          "aulas": []
+        },
+        {
+          "id": "conceitos-basicos",
+          "titulo": "Conceitos Básicos",
+          "subtitulo": "Otimização, Oferta e Demanda, Elasticidade...",
+          "categoria": "Fundamentos",
+          "cor": "#4DB6AC",
+          "icone": "psychology_alt_outlined",
+          "aulas": []
+        }
+      ]
+    },
+    {
+      "id": "microeconomia",
+      "titulo": "Tópico 2: Microeconomia",
+      "topicos": [
+        {
+          "id": "teoria-da-escolha",
+          "titulo": "Teoria da Escolha",
+          "subtitulo": "Preferências, Utilidade, Restrição...",
+          "categoria": "Micro",
+          "cor": "#64B5F6",
+          "icone": "psychology_alt_outlined",
+          "aulas": []
+        },
+        {
+          "id": "estruturas-de-mercado",
+          "titulo": "Estruturas de Mercado",
+          "subtitulo": "Monopólio, Oligopólio, Competição...",
+          "categoria": "Mercados",
+          "cor": "#FFA726",
+          "icone": "storefront_outlined",
+          "aulas": []
+        },
+        {
+          "id": "teoria-dos-jogos",
+          "titulo": "Teoria dos Jogos",
+          "subtitulo": "Estratégia de Jogo, Equilíbrio de Nash...",
+          "categoria": "Estratégia",
+          "cor": "#BA68C8",
+          "icone": "videogame_asset_outlined",
+          "aulas": []
+        }
+      ]
+    },
+    {
+      "id": "macroeconomia",
+      "titulo": "Tópico 3: Macroeconomia",
+      "topicos": [
+        {
+          "id": "politica",
+          "titulo": "Política",
+          "subtitulo": "Geopolítica, Economias Abertas e Sistemas Monetários",
+          "categoria": "Nacional/Global",
+          "cor": "#FFD700",
+          "icone": "public_outlined",
+          "aulas": []
+        },
+        {
+          "id": "contabilidade-nacional",
+          "titulo": "Contabilidade Nacional",
+          "subtitulo": "Renda Nacional, Inflação, Desemprego...",
+          "categoria": "Nacional",
+          "cor": "#90A4AE",
+          "icone": "account_balance_outlined",
+          "aulas": []
+        },
+        {
+          "id": "atualidades",
+          "titulo": "Atualidades",
+          "subtitulo": "Notícias Semanais",
+          "categoria": "Notícias",
+          "cor": "#AED581",
+          "icone": "newspaper_rounded",
+          "aulas": []
+        }
+      ]
+    },
+    {
+      "id": "financas",
+      "titulo": "Tópico 4: Finanças",
+      "topicos": [
+        {
+          "id": "gestao-empresarial",
+          "titulo": "Gestão Empresarial",
+          "subtitulo": "Cálculo Financeiro, Aplicações e Gestão...",
+          "categoria": "Empresarial",
+          "cor": "#4FC3F7",
+          "icone": "business_center_outlined",
+          "aulas": []
+        },
+        {
+          "id": "gestao-de-ativos",
+          "titulo": "Gestão de Ativos",
+          "subtitulo": "Teoria das Carteiras, Risco e Retorno...",
+          "categoria": "Investimentos",
+          "cor": "#81C784",
+          "icone": "trending_up_rounded",
+          "aulas": []
+        },
+        {
+          "id": "economia-comportamental",
+          "titulo": "Economia Comportamental",
+          "subtitulo": "Víeses Cognitivos e Decisões",
+          "categoria": "Psicológica",
+          "cor": "#FF8A65",
+          "icone": "auto_graph_rounded",
+          "aulas": []
+        }
+      ]
+    }
+  ]
+}
